@@ -1,0 +1,51 @@
+{
+	"dependencies": "forestry",
+	"populate": 
+		{
+		"apatite": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"block": "forestry:resources",
+				"material": [
+					"minecraft:stone",
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:sandstone",
+					"minecraft:air",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+				],
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"chunk-chance": 40,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"ocean",
+							"deep_ocean",
+							"swampland",
+							"river",
+							"beach",
+							"gravel_beach"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+<ic2:blockgenerator:1>
+<ic2:itemcable:5>
+<ic2:itemcable:10>
+<ic2:itemcable:13>
+<ic2:itemmisc:453>
+<ic2:itembatre>
+<ic2:itembatcrystal>
+<ic2:itemcellempty>
+<ic2:itemtoolbox>
+<ic2:itemmetascanners>
+<ic2:itemmetascanners:1>
+<basemetals:copper_plate>
+<ic2:blockmachinemv>
+<basemetals:steel_ingot>
+<ic2:itemmisc:53>
+<ic2:itemcable:2>
+<ic2:itemcable>
+<ic2:itemmisc:452>
+<ic2:itemmisc:262>
+<ic2:itemmisc:259>
+<ic2:itemmisc:257>
+<ic2:blockmachinelv>
+<ic2:blockutility:2>
+<ic2:blockfenceiron>
+<ic2:blockgenerator:1>
+<ic2:blockgenerator:12>
+<ic2:blockgenerator:10>
+<ic2:blockgenerator:13>
+<ic2:blockcompactedgenerator:8>
+<ic2:itemtoolmeter>
+<ic2:itemarmorcfpack:3400>
+<ic2:itemarmorjetpack:18001>
+<ic2:itemarmorjetpackelectric>
+<ic2:itemfoamsprayer:1602>
+
+Nether Coal:<netherendingores:ore_nether_vanilla>
+Nether Diamond:<netherendingores:ore_nether_vanilla:1>
+Nether Emerald:<netherendingores:ore_nether_vanilla:2>
+Nether Gold:<netherendingores:ore_nether_vanilla:3>
+Nether Iron:<netherendingores:ore_nether_vanilla:4>
+Nether Lapis:<netherendingores:ore_nether_vanilla:5>
+Nether Redstone:<netherendingores:ore_nether_vanilla:6>
+Nether Aluminum:<netherendingores:ore_nether_modded_1>
+Nether Copper:<netherendingores:ore_nether_modded_1:1>
+Nether Iridium:<netherendingores:ore_nether_modded_1:2>
+Nether Lead:<netherendingores:ore_nether_modded_1:3>
+Nether Mithril:<netherendingores:ore_nether_modded_1:4>
+Nether Nickel:<netherendingores:ore_nether_modded_1:5>
+Nether Platinum:<netherendingores:ore_nether_modded_1:6>
+Nether Silver:<netherendingores:ore_nether_modded_1:7>
+Nether Tin:<netherendingores:ore_nether_modded_1:8>
+Nether Certus:<netherendingores:ore_nether_modded_1:9>
+Nether Charged Certus:<netherendingores:ore_nether_modded_1:10>
+Nether Osmium:<netherendingores:ore_nether_modded_1:11>
+Nether Uranium:<netherendingores:ore_nether_modded_1:12>
+Nether Yellorite:<netherendingores:ore_nether_modded_1:13>
+Nether Dilithium:<netherendingores:ore_nether_modded_1:14>
+Nether Tritanium:<netherendingores:ore_nether_modded_1:15>
+
+End Coal:<netherendingores:ore_end_vanilla>
+End Diamond:<netherendingores:ore_end_vanilla:1>
+End Emerald:<netherendingores:ore_end_vanilla:2>
+End Gold:<netherendingores:ore_end_vanilla:3>
+End Iron:<netherendingores:ore_end_vanilla:4>
+End Lapis:<netherendingores:ore_end_vanilla:5>
+End Redstone:<netherendingores:ore_end_vanilla:6>
+End Aluminum:<netherendingores:ore_end_modded_1>
+End Copper:<netherendingores:ore_end_modded_1:1>
+End Iridium:<netherendingores:ore_end_modded_1:2>
+End Lead:<netherendingores:ore_end_modded_1:3>
+End Mithril:<netherendingores:ore_end_modded_1:4>
+End Nickel:<netherendingores:ore_end_modded_1:5>
+End Platinum:<netherendingores:ore_end_modded_1:6>
+End Silver:<netherendingores:ore_end_modded_1:7>
+End Tin:<netherendingores:ore_end_modded_1:8>
+End Certus:<netherendingores:ore_end_modded_1:9>
+End Charged Certus:<netherendingores:ore_end_modded_1:10>
+End Osmium:<netherendingores:ore_end_modded_1:11>
+End Uranium:<netherendingores:ore_end_modded_1:12>
+End Yellorite:<netherendingores:ore_end_modded_1:13>
+End Dilithium:<netherendingores:ore_end_modded_1:14>
+End Tritanium:<netherendingores:ore_end_modded_1:15>
+

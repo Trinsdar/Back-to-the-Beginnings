@@ -1,0 +1,160 @@
+{
+	"dependencies": "basemetals",
+	"populate": {
+		"adamantine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "basemetals:adamantine_ore",
+				"material": [
+					{
+						"name": "quark:basalt",
+						"meta": 0
+					},
+					{
+						"name": "biomesoplenty:flesh",
+						"meta": 0
+					},
+					{
+						"name": "minecraft:netherrack",
+						"meta": 0
+					},
+					{
+						"name": "minecraft:soul_sand",
+						"meta": 0
+					},
+					{
+						"name": "nex:netherrack",
+						"meta": -1
+					},
+					{
+						"name": "biomesoplenty:grass",
+						"meta": -1
+					},
+					{
+						"name": "biomesoplenty:ash_block",
+						"meta": 0
+					}
+				],
+				"cluster-size": 8 
+			},
+			"cluster-count": 3,
+			"min-height": 32,
+			"max-height": 128,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"antimony": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "basemetals:antimony_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 6,
+			"center-height": 30,
+			"spread": 15,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"bismuth": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "basemetals:bismuth_ore"
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 5,
+			"min-height": 5,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"coldiron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "basemetals:coldiron_ore"
+				"material": [
+					{
+						"name": "quark:basalt",
+						"meta": 0
+					},
+					{
+						"name": "biomesoplenty:flesh",
+						"meta": 0
+					},
+					{
+						"name": "minecraft:netherrack",
+						"meta": 0
+					},
+					{
+						"name": "minecraft:soul_sand",
+						"meta": 0
+					},
+					{
+						"name": "nex:netherrack",
+						"meta": -1
+					},
+					{
+						"name": "biomesoplenty:grass",
+						"meta": -1
+					},
+					{
+						"name": "biomesoplenty:ash_block",
+						"meta": 0
+					}
+				],
+				"cluster-size": 8
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"starsteel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "basemetals:starsteel_ore"
+				"material": "minecraft:end_stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

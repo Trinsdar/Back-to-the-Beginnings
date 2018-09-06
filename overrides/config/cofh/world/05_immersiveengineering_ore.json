@@ -1,0 +1,28 @@
+{
+	"dependencies": "immersiveengineering",
+	"populate": {
+		"bauxite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 1
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 7,
+			"min-height": 40,
+			"max-height": 85,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
