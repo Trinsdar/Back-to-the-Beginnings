@@ -1,1 +1,62 @@
-{}
+{
+	"recipes":
+	[
+		{
+			"recipeType": "compressor",
+			"outputs":
+			[
+				{
+					"item": "ic2:itembatcrystal",
+					"meta": 0,
+					"amount": 1
+				}
+			],
+			"recipeExperience": 1.05,
+			"input":
+			{
+				"inputType": "item",
+				"item":	"contenttweaker:energy_dust",
+				"meta": 0,
+				"amount": 9
+			}
+		},
+		{
+			"recipeType": "macerator",
+			"outputs":
+			[
+				{
+					"item": "ic2:itemmisc",
+					"meta": 8,
+					"amount": 4
+				}
+			],
+			"recipeExperience": 1.05,
+			"input":
+			{
+				"inputType": "item",
+				"item":	"minecraft:clay",
+				"meta": 0,
+				"amount": 1
+			}
+		},
+		{
+			"recipeType": "macerator",
+			"outputs":
+			[
+				{
+					"item": "basemetals:obsidian_powder",
+					"meta": 0,
+					"amount": 4
+				}
+			],
+			"recipeExperience": 1.05,
+			"input":
+			{
+				"inputType": "item",
+				"item":	"minecraft:obsidian",
+				"meta": 0,
+				"amount": 1
+			}
+		}
+	]
+}

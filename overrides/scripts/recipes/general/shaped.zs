@@ -1,0 +1,11 @@
+recipes.addShaped(<basemetals:copper_plate>, [[<immersiveengineering:sheetmetal>]]);
+recipes.addShaped(<immersiveengineering:metal:31>, [[<immersiveengineering:sheetmetal:1>]]);
+recipes.addShaped(<basemetals:lead_plate>, [[<immersiveengineering:sheetmetal:2>]]);
+recipes.addShaped(<basemetals:silver_plate>, [[<immersiveengineering:sheetmetal:3>]]);
+recipes.addShaped(<basemetals:nickel_plate>, [[<immersiveengineering:sheetmetal:4>]]);
+recipes.addShaped(<immersiveengineering:metal:35>, [[<immersiveengineering:sheetmetal:5>]]);
+recipes.addShaped(<immersiveengineering:metal:36>, [[<immersiveengineering:sheetmetal:6>]]);
+recipes.addShaped(<basemetals:electrum_plate>, [[<immersiveengineering:sheetmetal:7>]]);
+recipes.addShaped(<basemetals:steel_plate>, [[<immersiveengineering:sheetmetal:8>]]);
+recipes.addShaped(<basemetals:iron_plate>, [[<immersiveengineering:sheetmetal:9>]]);
+recipes.addShaped(<basemetals:gold_plate>, [[<immersiveengineering:sheetmetal:10>]]);

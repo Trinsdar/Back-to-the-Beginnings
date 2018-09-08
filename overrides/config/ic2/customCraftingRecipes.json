@@ -1,1 +1,40 @@
-{}
+{
+	"recipes":
+	[
+		{
+			"recipeType": "shaped",
+			"hidden": false,
+			"output":
+			{
+				"item": "ic2:blockmachinemv",
+				"meta": 2,
+				"amount": 1
+			},
+			"pattern": ["OOO", "OMO", "OAO"],
+			"inputs":
+			[
+				{
+					"patternID": "O",
+					"inputType": "item",
+					"item":	"ic2:itemmisc",
+					"meta": 303,
+					"amount": 4	
+				},
+				{
+					"patternID": "M",
+					"inputType": "item",
+					"item": "ic2:blockmachinelv",
+					"meta": 3,
+					"amount": 1
+				},
+				{
+					"patternID": "A",
+					"inputType": "item",
+					"item": "ic2:blockmachinemv",
+					"meta": 0,
+					"amount": 1	
+				}
+			]
+		}
+	]
+}
