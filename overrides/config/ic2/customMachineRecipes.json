@@ -57,6 +57,44 @@
 				"meta": 0,
 				"amount": 1
 			}
+		},
+		{
+			"recipeType": "macerator",
+			"outputs":
+			[
+				{
+					"item": "basemetals:zinc_crushed",
+					"meta": 0,
+					"amount": 4
+				}
+			],
+			"recipeExperience": 1.05,
+			"input":
+			{
+				"inputType": "item",
+				"item":	"contenttweaker:nether_zinc_ore",
+				"meta": 0,
+				"amount": 1
+			}
+		},
+		{
+			"recipeType": "macerator",
+			"outputs":
+			[
+				{
+					"item": "jaopca:item_crushedmercury",
+					"meta": 0,
+					"amount": 4
+				}
+			],
+			"recipeExperience": 1.05,
+			"input":
+			{
+				"inputType": "item",
+				"item":	"contenttweaker:nether_mercury_ore",
+				"meta": 0,
+				"amount": 1
+			}
 		}
 	]
 }
