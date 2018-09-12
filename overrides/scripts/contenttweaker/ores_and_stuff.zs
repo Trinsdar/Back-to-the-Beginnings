@@ -23,16 +23,16 @@ import scripts.contenttweaker.base.materials;
 //	metal.registerParts(defaultPartNames);
 //}
 
-  var ores as Material[] = [
-  	materials.refined_iron
-  ];
+ // var ores as Material[] = [
+ // 	materials.refined_iron
+ // ];
 
 
-for material in ores {
-  	var oreData as MaterialPartData = material.registerPart("ore").getData();
-    oreData.addDataValue("variants", "minecraft:stone");
-    oreData.addDataValue("hardness", "2");
-    oreData.addDataValue("resistance", "15");
-    oreData.addDataValue("harvestTool", "pickaxe");
-    oreData.addDataValue("harvestLevel", "1");
-}
+//for material in ores {
+//  	var oreData as MaterialPartData = material.registerPart("ore").getData();
+//    oreData.addDataValue("variants", "minecraft:stone");
+//    oreData.addDataValue("hardness", "2");
+//    oreData.addDataValue("resistance", "15");
+//    oreData.addDataValue("harvestTool", "pickaxe");
+//    oreData.addDataValue("harvestLevel", "1");
+//}
