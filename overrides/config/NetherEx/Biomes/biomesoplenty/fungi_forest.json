@@ -91,6 +91,14 @@
       "minGroupCount": 8,
       "maxGroupCount": 12,
       "spawn": true
+    },
+    {
+      "entity": "enderiozoo:epicsquid",
+      "creatureType": "water_creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
     }
   ],
   "features": []

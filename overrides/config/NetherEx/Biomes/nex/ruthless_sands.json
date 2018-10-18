@@ -91,6 +91,198 @@
       "minGroupCount": 8,
       "maxGroupCount": 12,
       "spawn": true
+    },
+    {
+      "entity": "enderiozoo:epicsquid",
+      "creatureType": "water_creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:ant",
+      "creatureType": "monster",
+      "weight": 30,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:ant_ranger",
+      "creatureType": "monster",
+      "weight": 30,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:mummy",
+      "creatureType": "monster",
+      "weight": 100,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:anubis",
+      "creatureType": "monster",
+      "weight": 80,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:creep",
+      "creatureType": "monster",
+      "weight": 80,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:ender_eye",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:arachne",
+      "creatureType": "monster",
+      "weight": 80,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:chest",
+      "creatureType": "monster",
+      "weight": 80,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:deathword",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:bone_knight",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:flesh_lich",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:creep",
+      "creatureType": "monster",
+      "weight": 80,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:ender_eye",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:arachne",
+      "creatureType": "monster",
+      "weight": 80,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:chest",
+      "creatureType": "monster",
+      "weight": 80,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:deathword",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:bone_knight",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:flesh_lich",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:succubus",
+      "creatureType": "monster",
+      "weight": 16,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:wither_cow",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:baphomet",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": true
+    },
+    {
+      "entity": "enderiozoo:epicsquid",
+      "creatureType": "water_creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
     }
   ],
   "features": [

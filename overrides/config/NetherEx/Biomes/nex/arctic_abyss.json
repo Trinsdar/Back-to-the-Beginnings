@@ -104,6 +104,54 @@
       "minGroupCount": 8,
       "maxGroupCount": 12,
       "spawn": true
+    },
+    {
+      "entity": "enderiozoo:epicsquid",
+      "creatureType": "water_creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:succubus",
+      "creatureType": "monster",
+      "weight": 16,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:wither_cow",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:baphomet",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": true
+    },
+    {
+      "entity": "enderiozoo:epicsquid",
+      "creatureType": "water_creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
     }
   ],
   "features": [

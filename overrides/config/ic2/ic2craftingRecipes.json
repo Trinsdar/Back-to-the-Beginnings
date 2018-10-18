@@ -845,5 +845,8 @@
  "shapeless_Star-Steel Plate": false,
  "shapeless_Zinc Item Casing": false,
  "shapeless_Zinc Plate": false,
- "shaped_Insulated Bronze Cable": true
+ "shaped_Insulated Bronze Cable": true,
+ "shapeless_Adamantine Item Casing": true,
+ "shapeless_Antimony Item Casing": true,
+ "shapeless_Bismuth Item Casing": true
 }

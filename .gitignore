@@ -5,6 +5,8 @@ overrides/config/jei/worldSettings.cfg
 overrides/config/splash.properties
 overrides/config/fmlModState.properties
 overrides/config/BiomeTweaker/output/
+overrides/config/XaeroWaypoints
+overrides/config/XaeroWorldMap
 overrides/resources/pack.mcmeta
 overrides/config/presets
 *.lnk
