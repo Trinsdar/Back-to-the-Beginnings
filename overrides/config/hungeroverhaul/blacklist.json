@@ -1,0 +1,12 @@
+{
+	"foodsBlacklist": [
+		{
+			"name": "minecraft:golden_apple",
+			"meta": 0
+		},
+		{
+			"name": "minecraft:golden_apple",
+			"meta": 1
+		}
+	]
+}

@@ -1,0 +1,672 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRedstoneAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickredstonealloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLumium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticklumium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotStellarAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickstellaralloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotColdiron</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:coldiron_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrystaltine</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickcrystaltine 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConductiveIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickconductiveiron 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSignalum</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticksignalum 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVibrantAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickvibrantalloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotStarsteel</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:starsteel_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAquarium</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:aquarium_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBismuth</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:bismuth_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAstralStarmetal</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickastralstarmetal 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnergeticSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickenergeticsilver 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRefinedIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickrefinediron 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickenderium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManasteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickmanasteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTerrasteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickterrasteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod 2 10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElvenElementium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickelvenelementium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLithium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticklithium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnergeticAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickenergeticalloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickuranium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticktungsten 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLead</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:lead_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSoularium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticksoularium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectricalSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickelectricalsteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotThaumium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickthaumium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAntimony</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:antimony_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConstructionAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickconstructionalloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:steel_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:zinc_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:electrum_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMixedMetal</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickmixedmetal 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:tin_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:nickel_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAdamant</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickadamant 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod 2 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConstantan</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickconstantan 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVanadium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickvanadium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTamahagane</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticktamahagane 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAdamantine</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:adamantine_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAdvancedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickadvancedalloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBlackIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickblackiron 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrudeIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickcrudeiron 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPewter</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:pewter_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod 2 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridiumAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickiridiumalloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:copper_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVoid</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickvoid 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrystallineAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickcrystallinealloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:bronze_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotUltimate</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickultimate 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGold</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:gold_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotObsidian</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:obsidian_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 2 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:silver_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDarkSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickdarksteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnrichedUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickenricheduranium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrystallinePinkSlime</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickcrystallinepinkslime 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungstensteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticktungstensteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMelodicAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickmelodicalloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotWootz</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickwootz 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCupronickel</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:cupronickel_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:brass_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPulsatingIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickpulsatingiron 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:iron_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:platinum_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticksilicon 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEndSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickendsteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHotTungstensteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickhottungstensteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDragonbone</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickdragonbone 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:mithril_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrudeSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickcrudesteel 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHOPGraphite</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickhopgraphite 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVividAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickvividalloy 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotShibuichi</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickshibuichi 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotChromium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickchromium 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:invar_rod 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMercury</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickmercury 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIronwood</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:ironwood_stick 2</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

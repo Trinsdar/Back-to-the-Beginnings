@@ -1,7 +1,9 @@
-item.contenttweaker.refined_iron_casing.name=Refined Iron Item Casing
-item.contenttweaker.tin_casing.name=Tin Item Casing
-item.contenttweaker.bronze_casing.name=Bronze Item Casing
-item.contenttweaker.gold_casing.name=Gold Item Casing
-item.contenttweaker.energy_dust.name=Energy Dust
+item.charcoal.name=Poor Grade Charcoal
+item.contenttweaker.pebble.name=Pebble
+
 tile.contenttweaker.nether_zinc_ore.name=Nether Zinc Ore
 tile.contenttweaker.nether_mercury_ore.name=Nether Mercury Ore
+tile.contenttweaker.nether_certus_ore.name=Nether Certus Quartz Ore
+tile.contenttweaker.nether_uranium_ore.name=Nether Uranium Ore
+tile.contenttweaker.nether_aluminum_ore.name=Nether Aluminum Ore
+tile.contenttweaker.poor_nether_aluminum_ore.name=Poor Nether Aluminum Ore

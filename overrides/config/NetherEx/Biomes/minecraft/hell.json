@@ -121,35 +121,11 @@
       "spawn": true
     },
     {
-      "entity": "grimoireofgaia:succubus",
+      "entity": "primal:creeper_nether",
       "creatureType": "monster",
-      "weight": 16,
-      "minGroupCount": 2,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "grimoireofgaia:wither_cow",
-      "creatureType": "monster",
-      "weight": 8,
-      "minGroupCount": 1,
-      "maxGroupCount": 2,
-      "spawn": true
-    },
-    {
-      "entity": "grimoireofgaia:baphomet",
-      "creatureType": "monster",
-      "weight": 8,
-      "minGroupCount": 1,
-      "maxGroupCount": 2,
-      "spawn": true
-    },
-    {
-      "entity": "animania:hamster",
-      "creatureType": "creature",
-      "weight": 8,
-      "minGroupCount": 1,
-      "maxGroupCount": 2,
+      "weight": 3,
+      "minGroupCount": 0,
+      "maxGroupCount": 1,
       "spawn": true
     },
     {
@@ -158,6 +134,110 @@
       "weight": 10,
       "minGroupCount": 8,
       "maxGroupCount": 12,
+      "spawn": true
+    },
+    {
+      "entity": "primal:ovis_atre",
+      "creatureType": "creature",
+      "weight": 90,
+      "minGroupCount": 1,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "enderiozoo:epicsquid",
+      "creatureType": "water_creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "animalium:wild_dog",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "animalium:bear",
+      "creatureType": "monster",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "animalium:rat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:blaze",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "quark:wraith",
+      "creatureType": "monster",
+      "weight": 60,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "natura:nitrocreeper",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "primal:creeper_nether",
+      "creatureType": "monster",
+      "weight": 3,
+      "minGroupCount": 0,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": true
+    },
+    {
+      "entity": "primal:ovis_atre",
+      "creatureType": "creature",
+      "weight": 90,
+      "minGroupCount": 1,
+      "maxGroupCount": 6,
       "spawn": true
     },
     {

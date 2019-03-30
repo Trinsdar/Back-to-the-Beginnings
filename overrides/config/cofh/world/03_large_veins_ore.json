@@ -15,7 +15,20 @@
 						"weight": 15
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 150,
 				"sparse": true
 			},
@@ -51,7 +64,20 @@
 						"weight": 3
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 130,
 				"sparse": true
 			},
@@ -87,7 +113,20 @@
 						"weight": 10
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 150,
 				"sparse": true
 			},
@@ -114,7 +153,7 @@
 				"block": [
 					
 					{
-						"name": "basemetals:copper_ore",
+						"name": "railcraft:ore_metal",
 						"metadata": 0,
 						"weight": 85
 					},
@@ -124,7 +163,20 @@
 						"weight": 15
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 200,
 				"sparse": true
 			},
@@ -162,7 +214,20 @@
 						"weight": 15
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 200,
 				"sparse": true
 			},
@@ -197,7 +262,20 @@
 						"weight": 35
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 150,
 				"sparse": true
 			},

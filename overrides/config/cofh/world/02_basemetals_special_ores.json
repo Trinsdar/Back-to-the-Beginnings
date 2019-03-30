@@ -11,10 +11,6 @@
 						"meta": 0
 					},
 					{
-						"name": "biomesoplenty:flesh",
-						"meta": 0
-					},
-					{
 						"name": "minecraft:netherrack",
 						"meta": 0
 					},
@@ -25,14 +21,6 @@
 					{
 						"name": "nex:netherrack",
 						"meta": -1
-					},
-					{
-						"name": "biomesoplenty:grass",
-						"meta": -1
-					},
-					{
-						"name": "biomesoplenty:ash_block",
-						"meta": 0
 					}
 				],
 				"cluster-size": 8 
@@ -59,10 +47,6 @@
 						"meta": 0
 					},
 					{
-						"name": "biomesoplenty:flesh",
-						"meta": 0
-					},
-					{
 						"name": "minecraft:netherrack",
 						"meta": 0
 					},
@@ -73,14 +57,6 @@
 					{
 						"name": "nex:netherrack",
 						"meta": -1
-					},
-					{
-						"name": "biomesoplenty:grass",
-						"meta": -1
-					},
-					{
-						"name": "biomesoplenty:ash_block",
-						"meta": 0
 					}
 				],
 				"cluster-size": 8

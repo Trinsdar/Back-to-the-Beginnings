@@ -1,0 +1,1 @@
+furnace.setFuel(<minecraft:coal:1>, 800);

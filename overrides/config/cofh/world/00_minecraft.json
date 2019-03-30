@@ -126,7 +126,20 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "coal_ore",
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 20
 			},
 			"cluster-count": 15,
@@ -148,17 +161,30 @@
 			"generator": {
 				"block": [
 					{
-						"name": "minecraft:iron_ore",
+						"name": "poormetals:poor_iron_ore",
 						"weight": 95
 					},
 					{
-						"name": "basemetals:nickel_ore",
+						"name": "poormetals:poor_nickel_ore",
 						"weight": 5
 					}
 					
 				],
-				"material": "minecraft:stone",
-				"cluster-size": 10
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
+				"cluster-size": 12
 			},
 			"cluster-count": 13,
 			"min-height": 0,
@@ -177,9 +203,22 @@
 		"gold": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "gold_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 6
+				"block": "poormetals:poor_gold_ore",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
+				"cluster-size": 8
 			},
 			"cluster-count": 2,
 			"min-height": 0,
@@ -199,7 +238,20 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "redstone_ore",
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 9
 			},
 			"cluster-count": 5,
@@ -220,7 +272,20 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 6
 			},
 			"cluster-count": 1,
@@ -241,7 +306,20 @@
 			"distribution": "gaussian",
 			"generator": {
 				"block": "lapis_ore",
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 7
 			},
 			"cluster-count": 1,
@@ -263,10 +341,23 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "gold_ore"
+					"name": "poormetals:poor_gold_ore"
 				},
-				"material": "minecraft:stone",
-				"cluster-size": 10
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
+				"cluster-size": 12
 			},
 			"cluster-count": 15,
 			"min-height": 32,
@@ -303,7 +394,20 @@
 				"block": {
 					"name": "emerald_ore"
 				},
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 1
 			},
 			"cluster-count": {
@@ -381,7 +485,28 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "quartz_ore",
-				"material": "minecraft:netherrack",
+				"material": [
+					{
+						"name": "quark:basalt",
+						"meta": 0
+					},
+					{
+						"name": "biomesoplenty:flesh",
+						"meta": 0
+					},
+					{
+						"name": "minecraft:netherrack",
+						"meta": 0
+					},
+					{
+						"name": "minecraft:soul_sand",
+						"meta": 0
+					},
+					{
+						"name": "nex:netherrack",
+						"meta": -1
+					}
+				],
 				"cluster-size": 14
 			},
 			"cluster-count": 16,

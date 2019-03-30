@@ -1,0 +1,18 @@
+{
+	"foods": [
+		{
+			"name": "minecraft:cooked_beef",
+			"meta": 0,
+			"hunger": 4,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "minecraft:cooked_beef",
+			"meta": 0,
+			"hunger": 4,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 0.25
+		}
+	]
+}

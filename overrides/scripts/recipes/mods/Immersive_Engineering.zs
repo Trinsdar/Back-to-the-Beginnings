@@ -49,5 +49,5 @@ mods.immersiveengineering.MetalPress.addRecipe(<basemetals:steel_plate>, <ore:in
 
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8>, <ic2:itemmisc:53>, 1200, <immersiveengineering:material:7>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:storage:8>, <jaopca:block_blockrefinediron>, 10800, <immersiveengineering:material:7> * 9);
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8>, <ore:ingotRefinedIron>, 1200, <immersiveengineering:material:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:storage:8>, <ore:blockRefinedIron>, 10800, <immersiveengineering:material:7> * 9);

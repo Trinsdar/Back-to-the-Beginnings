@@ -9,4 +9,4 @@ terrainSlopes:true
 terrainDepth:true
 footsteps:true
 flowers:true
-globalVersion:6
+globalVersion:9

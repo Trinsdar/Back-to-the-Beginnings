@@ -9,6 +9,8 @@
 				"block": "forestry:resources",
 				"material": [
 					"minecraft:stone",
+					"quark:marble",
+					"quark:limestone",
 					"minecraft:dirt",
 					"minecraft:grass",
 					"minecraft:gravel",

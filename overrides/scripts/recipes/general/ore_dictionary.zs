@@ -1,4 +1,12 @@
 <ore:plateIron>.remove(<ic2:itemmisc:53>);
 <ore:plateCopper>.remove(<ic2:itemmisc:50>);
 <ore:plateTin>.remove(<ic2:itemmisc:51>);
+<ore:plateBronze>.remove(<ic2:itemmisc:52>);
 <ore:plateGold>.remove(<minecraft:gold_ingot>);
+oreDict.chestNonTrapped;
+<ore:chestNonTrapped>.add(<quark:custom_chest:1>);
+<ore:chestNonTrapped>.add(<quark:custom_chest:3>);
+<ore:chestNonTrapped>.add(<quark:custom_chest:2>);
+<ore:chestNonTrapped>.add(<minecraft:chest>);
+<ore:chestNonTrapped>.add(<quark:custom_chest>);
+<ore:chestNonTrapped>.add(<quark:custom_chest:4>);

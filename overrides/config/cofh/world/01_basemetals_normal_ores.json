@@ -4,9 +4,25 @@
 		"copper": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "basemetals:copper_ore",
-				"material": "minecraft:stone",
-				"cluster-size":10 
+				"block": {
+					"name": "poormetals:poor_copper_ore",
+					"meta": 0
+				},
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
+				"cluster-size":12 
 			},
 			"cluster-count": 5,
 			"min-height": 20,
@@ -24,9 +40,22 @@
 		"tin": {
 			"distribution": "gaussian",
 			"generator": {
-				"block": "basemetals:tin_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 9
+				"block": "poormetals:poor_tin_ore",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
+				"cluster-size": 10
 			},
 			"cluster-count": 6,
 			"center-height": 30,
@@ -44,8 +73,21 @@
 		"zinc": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "basemetals:zinc_ore",
-				"material": "minecraft:stone",
+				"block": "poormetals:poor_zinc_ore",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 10
 			},
 			"cluster-count": 5,
@@ -64,8 +106,21 @@
 		"mercury": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "basemetals:mercury_ore",
-				"material": "minecraft:stone",
+				"block": "poormetals:poor_mercury_ore",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 12
 			},
 			"cluster-count": 3,
@@ -86,15 +141,28 @@
 			"generator": {
 				"block": [
 					{
-						"name": "basemetals:silver_ore",
+						"name": "poormetals:poor_silver_ore",
 						"weight": 80
 					},
 					{
-						"name": "basemetals:lead_ore",
+						"name": "poormetals:poor_lead_ore",
 						"weight": 20
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 10
 			},
 			"cluster-count": 3,
@@ -115,15 +183,28 @@
 			"generator": {
 				"block": [
 					{
-						"name": "basemetals:lead_ore",
+						"name": "poormetals:poor_lead_ore",
 						"weight": 90
 					},
 					{
-						"name": "basemetals:silver_ore",
+						"name": "poormetals:poor_silver_ore",
 						"weight": 10
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 8
 			},
 			"cluster-count": 4,
@@ -145,15 +226,28 @@
 			"generator": {
 				"block": [
 					{
-						"name": "basemetals:nickel_ore",
+						"name": "poormetals:poor_nickel_ore",
 						"weight": 70
 					},
 					{
-						"name": "minecraft:iron_ore",
+						"name": "poormetals:poor_iron_ore",
 						"weight": 30
 					}
 				],
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 11
 			},
 			"cluster-count": 2,
@@ -173,7 +267,20 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "basemetals:platinum_ore",
-				"material": "minecraft:stone",
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 2
 			},
 			"cluster-count": 2,
@@ -192,8 +299,24 @@
 		"copper_ocean": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "basemetals:copper_ore",
-				"material": "minecraft:stone",
+				"block": {
+					"name": "poormetals:poor_copper_ore",
+					"meta": 0
+				},
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 15
 			},
 			"cluster-count": 12,
@@ -220,8 +343,24 @@
 		"copper_high": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "basemetals:copper_ore",
-				"material": "minecraft:stone",
+				"block": {
+					"name": "poormetals:poor_copper_ore",
+					"meta": 2
+				},
+				"material":[ 
+					{
+						"name":"minecraft:stone",
+                    	"meta": 0
+					},
+					{
+						"name": "quark:marble",
+						"meta": 0
+					},
+					{
+						"name":"quark:limestone",
+						"meta": 0
+					}
+				],
 				"cluster-size": 10
 			},
 			"cluster-count": 3,

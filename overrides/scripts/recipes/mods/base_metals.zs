@@ -116,3 +116,6 @@ recipes.addShapedMirrored("Nickel Casings", <basemetals:nickel_casing> * 2, [[<o
 recipes.addShapedMirrored("Platinum Casings", <basemetals:platinum_casing> * 2, [[<ore:platePlatinum>],[<immersiveengineering:tool>]]);
 recipes.addShapedMirrored("Starsteel Casings", <basemetals:starsteel_casing> * 2, [[<ore:plateStarsteel>],[<immersiveengineering:tool>]]);
 recipes.addShapedMirrored("Zinc Casings", <basemetals:zinc_casing> * 2, [[<ore:plateZinc>],[<immersiveengineering:tool>]]);
+
+//crack hammer recipes
+mods.mmdlib.CrusherRecipes.add(<basemetals:copper_smallpowder> * 3, <railcraft:ore_metal_poor:2>);
